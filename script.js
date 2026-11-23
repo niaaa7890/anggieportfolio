@@ -67,8 +67,8 @@ const DATA = {
         "asset/work/kkl/kkl1.jpg",
         "asset/work/kkl/20250902_162422.jpg",
         "asset/work/kkl/kkl2.mp4",
-        "asset/work/kkl/kkl3.mp4",
-        "asset/work/kkl/kkl4.mp4",
+        "asset/work/kkl/lv_0_20250827103938.mp4",
+        "asset/work/kkl/lv_0_20250904082634.mp4",
       ],
     },
     {
