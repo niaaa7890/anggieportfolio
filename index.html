@@ -1,0 +1,809 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio of Kurnia Anggie Oktriana, Computer Science fresh graduate interested in UI/UX Design, Frontend Development, IT Support, and Website Management."
+    />
+    <meta name="theme-color" content="#111111" />
+    <title>Kurnia Anggie Oktriana | Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header" id="top">
+      <div class="nav-container">
+        <a class="logo" href="#home" aria-label="Kurnia Anggie Oktriana, home"
+          >ANGGIE</a
+        >
+        <button
+          class="menu-toggle"
+          id="menu-toggle"
+          type="button"
+          aria-label="Open navigation"
+          aria-expanded="false"
+          aria-controls="primary-nav"
+        >
+          <i class="fa-solid fa-bars" aria-hidden="true"></i>
+        </button>
+        <nav class="primary-nav" id="primary-nav" aria-label="Main navigation">
+          <a href="#home" class="active">Home</a>
+          <a href="#about">About</a>
+          <a href="#experience">Experience</a>
+          <a href="#projects">Projects</a>
+          <a href="#organization">Activities</a>
+          <a href="#skills">Skills</a>
+          <a href="#certificates">Certificates</a>
+          <a href="#contact" class="nav-contact"
+            >Contact
+            <i
+              class="fa-solid fa-arrow-up-right-from-square"
+              aria-hidden="true"
+            ></i
+          ></a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- HERO -->
+      <section class="hero section-shell" id="home">
+        <span class="blob blob-1" aria-hidden="true"></span>
+        <span class="blob blob-2" aria-hidden="true"></span>
+
+        <div class="hero-copy">
+          <p class="eyebrow">
+            <span class="eyebrow-line"></span> FRESH GRADUATE · COMPUTER SCIENCE
+          </p>
+          <h1>Hi, I'm <span>Kurnia Anggie</span><br />Oktriana</h1>
+          <h2 class="hero-role">
+            I'm interested in <span id="typing-text">UI/UX Designer</span
+            ><span class="typing-cursor" aria-hidden="true">|</span>
+          </h2>
+          <p class="hero-description">
+            I just graduated from Universitas Putra Bangsa with a GPA of
+            <strong>3.68/4.00 (Cum Laude)</strong>. I love turning ideas into
+            clean, easy-to-use designs and websites, and I'm excited to keep
+            learning and growing in tech.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects"
+              >See my work
+              <i class="fa-solid fa-arrow-right" aria-hidden="true"></i
+            ></a>
+            <a
+              class="button button-outline"
+              href="cv-kurnia-anggie.pdf"
+              target="_blank"
+              rel="noopener"
+              >View CV <i class="fa-solid fa-download" aria-hidden="true"></i
+            ></a>
+          </div>
+          <div class="social-links" aria-label="Social media links">
+            <a
+              href="https://www.linkedin.com/in/kurnia-anggie/"
+              target="_blank"
+              rel="noopener"
+              aria-label="LinkedIn"
+              ><i class="fa-brands fa-linkedin-in"></i
+            ></a>
+            <a href="mailto:kurniaanggie10@gmail.com" aria-label="Email"
+              ><i class="fa-regular fa-envelope"></i
+            ></a>
+            <a
+              href="https://wa.me/6287773147863"
+              target="_blank"
+              rel="noopener"
+              aria-label="WhatsApp"
+              ><i class="fa-brands fa-whatsapp"></i
+            ></a>
+            <a
+              href="https://www.instagram.com/kurniagg_01/"
+              target="_blank"
+              rel="noopener"
+              aria-label="Instagram"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="hero-image-frame">
+            <img src="main.jpg" alt="Portrait of Kurnia Anggie Oktriana" />
+          </div>
+          <div class="hero-note">
+            <span class="note-icon"
+              ><i class="fa-solid fa-graduation-cap" aria-hidden="true"></i
+            ></span>
+            <span
+              ><strong>Fresh Graduate</strong
+              ><small>Computer Science</small></span
+            >
+          </div>
+          <span class="float-chip chip-1"
+            ><i class="fa-solid fa-pen-ruler"></i> UI/UX</span
+          >
+          <span class="float-chip chip-2"
+            ><i class="fa-solid fa-code"></i> Frontend</span
+          >
+          <span class="float-chip chip-3"
+            ><i class="fa-solid fa-headset"></i> IT Support</span
+          >
+          <span class="hero-orbit orbit-one"></span>
+          <span class="hero-orbit orbit-two"></span>
+        </div>
+        <a class="scroll-cue" href="#about"><span></span> Scroll to explore</a>
+      </section>
+
+      <!-- ABOUT -->
+      <section class="section-shell section-block" id="about">
+        <div class="section-heading">
+          <p class="eyebrow">GET TO KNOW ME</p>
+          <h2>About <span>Me</span></h2>
+        </div>
+        <div class="about-layout">
+          <div class="about-copy">
+            <p class="lead">
+              I'm a fresh Computer Science graduate who loves technology, good
+              design, and building things people actually find useful.
+            </p>
+            <p>
+              During my studies I tried many things: an independent study
+              program in UI/UX, an internship, campus organizations, and several
+              academic projects. Along the way I learned about UI/UX design,
+              website management, SEO, and social media content. I enjoy working
+              on my own or with a team, and I'm always curious to learn
+              something new.
+            </p>
+            <p>
+              Right now I'm looking for a chance to grow as a UI/UX Designer,
+              Frontend Developer, or in IT Support and Website Management. Feel
+              free to say hi!
+            </p>
+            <a class="text-link" href="#contact"
+              >Let's chat <i class="fa-solid fa-arrow-right"></i
+            ></a>
+          </div>
+
+          <div class="about-facts">
+            <article class="fact-card">
+              <span class="fact-icon"
+                ><i class="fa-solid fa-graduation-cap"></i
+              ></span>
+              <div>
+                <h3>Education</h3>
+                <h4>Universitas Putra Bangsa</h4>
+                <p>Bachelor of Computer Science · 2022–2026</p>
+                <span class="fact-highlight">GPA 3.68 / 4.00 · Cum Laude</span>
+              </div>
+            </article>
+            <article class="fact-card">
+              <span class="fact-icon"
+                ><i class="fa-solid fa-bullseye"></i
+              ></span>
+              <div>
+                <h3>What I'm Aiming For</h3>
+                <div class="tag-list">
+                  <span>UI/UX Design</span><span>Frontend Developer</span
+                  ><span>IT Support</span><span>Website Management</span
+                  ><span>Digital Marketing</span>
+                </div>
+              </div>
+            </article>
+            <article class="fact-card">
+              <span class="fact-icon"><i class="fa-solid fa-award"></i></span>
+              <div>
+                <h3>Proud Moments</h3>
+                <p>3rd Winner – National Short Story Writing Competition</p>
+                <p>
+                  BNSP Certified – Digital Marketing Based on Artificial
+                  Intelligence
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- EXPERIENCE (cards are generated from script.js) -->
+      <section class="section-block section-muted" id="experience">
+        <div class="section-shell">
+          <div class="section-heading">
+            <p class="eyebrow">MY JOURNEY</p>
+            <h2>Education & <span>Experience</span></h2>
+            <p class="section-intro">
+              A journey of learning, growing, and gaining experience through
+              academic achievements, internships, projects, and organizational
+              activities. Explore the experiences that have shaped my skills and
+              professional growth.
+            </p>
+          </div>
+          <div class="card-grid" id="experience-grid"></div>
+        </div>
+      </section>
+
+      <!-- PROJECTS -->
+      <section class="section-shell section-block" id="projects">
+        <div class="section-heading">
+          <p class="eyebrow">MY CREATIVE WORK</p>
+          <h2>My <span>Projects</span></h2>
+          <p class="section-intro">
+            A few things I've designed and built while learning. They're not
+            perfect, but each one taught me something. Tap a card to take a
+            closer look.
+          </p>
+        </div>
+        <div class="card-grid" id="projects-grid"></div>
+      </section>
+
+      <!-- ORGANIZATION -->
+      <section class="section-block section-muted" id="organization">
+        <div class="section-shell">
+          <div class="section-heading">
+            <p class="eyebrow">COMMUNITY & LEADERSHIP</p>
+            <h2>Organization & <span>Activities</span></h2>
+            <p class="section-intro">
+              Being active on campus helped me grow beyond the classroom:
+              leading a team, managing money, and practicing my English.
+            </p>
+          </div>
+          <div class="card-grid" id="organization-grid"></div>
+        </div>
+      </section>
+
+      <!-- SKILLS -->
+      <section class="section-shell section-block" id="skills">
+        <div class="section-heading">
+          <p class="eyebrow">WHAT I BRING</p>
+          <h2>Skills & <span>Tools</span></h2>
+        </div>
+        <div class="skills-grid">
+          <article class="skill-panel">
+            <span class="panel-icon"
+              ><i class="fa-solid fa-laptop-code"></i
+            ></span>
+            <h3>Technical Skills</h3>
+            <div class="tag-list">
+              <span>UI/UX Design</span><span>WordPress</span
+              ><span>Prototyping</span><span>IT Support Troubleshooting</span
+              ><span>Copywriting</span><span>Website Management</span
+              ><span>SEO</span><span>Digital Marketing</span
+              ><span>Data Analysis</span><span>Social Media Management</span>
+            </div>
+          </article>
+          <article class="skill-panel">
+            <span class="panel-icon"
+              ><i class="fa-solid fa-screwdriver-wrench"></i
+            ></span>
+            <h3>Tools & Software</h3>
+            <div class="tag-list">
+              <span>Figma</span><span>Canva</span><span>WordPress</span
+              ><span>cPanel</span><span>Semrush</span><span>CapCut</span
+              ><span>draw.io</span><span>HTML</span><span>CSS</span
+              ><span>PHP</span><span>Python</span><span>JavaScript</span
+              ><span>MySQL</span><span>React.js</span
+              ><span>Microsoft Office</span><span>Google Trends</span>
+            </div>
+          </article>
+          <article class="skill-panel">
+            <span class="panel-icon"
+              ><i class="fa-solid fa-people-group"></i
+            ></span>
+            <h3>Soft Skills</h3>
+            <div class="tag-list">
+              <span>Communication</span><span>Teamwork</span
+              ><span>Leadership</span><span>Adaptability</span
+              ><span>Problem Solving</span><span>Time Management</span
+              ><span>Attention to Detail</span><span>Critical Thinking</span>
+            </div>
+          </article>
+          <article class="skill-panel">
+            <span class="panel-icon"><i class="fa-solid fa-language"></i></span>
+            <h3>Languages</h3>
+            <div class="language-row">
+              <span>Indonesian</span><strong>Native</strong>
+            </div>
+            <div class="language-row">
+              <span>English</span><strong>Intermediate</strong>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- CERTIFICATES -->
+      <section class="section-block section-muted" id="certificates">
+        <div class="section-shell">
+          <div class="section-heading">
+            <p class="eyebrow">LEARNING JOURNEY</p>
+            <h2>Certificates & <span>Courses</span></h2>
+            <p class="section-intro">
+              Courses and training I've completed along the way as I keep
+              learning new things.
+            </p>
+          </div>
+          <div class="certificate-grid">
+            <article class="certificate-card">
+              <a href="asset/sertifikat/bnsp.jpg" target="_blank" rel="noopener"
+                ><img
+                  src="asset/sertifikat/bnsp.jpg"
+                  alt="BNSP Digital Marketing certificate"
+                  loading="lazy"
+              /></a>
+              <div>
+                <h3>Certificate BNSP Digital Marketing</h3>
+                <p>Digital Marketing Based on Artificial Intelligence</p>
+              </div>
+            </article>
+            <article class="certificate-card">
+              <a
+                href="asset/sertifikat/digimind.jpg"
+                target="_blank"
+                rel="noopener"
+                ><img src="asset/sertifikat/digimind.jpg" alt="" loading="lazy"
+              /></a>
+              <div>
+                <h3>
+                  Certificate in AI-Based Digital Marketing
+                </h3>
+                <p>Asosiasi Digital Marketing Indonesia</p>
+              </div>
+            </article>
+            <article class="certificate-card">
+              <a
+                href="asset/sertifikat/msib si1.jpg"
+                target="_blank"
+                rel="noopener"
+                ><img src="asset/sertifikat/msib si1.jpg" alt="" loading="lazy"
+              /></a>
+              <div>
+                <h3>Certificate Independent Study Program – Batch 7</h3>
+                <p>Kampus Merdeka</p>
+              </div>
+            </article>
+            <article class="certificate-card">
+              <a
+                href="asset/sertifikat/msib si.jpg
+                target="_blank"
+                rel="noopener"
+                ><img
+                  src="asset/sertifikat/msib si.jpg"
+                  alt="Kampus Merdeka participation certificate"
+                  loading="lazy"
+              /></a>
+              <div>
+                <h3>Certificate of Participation</h3>
+                <p>Kampus Merdeka</p>
+              </div>
+            </article>
+            <article class="certificate-card">
+              <a
+                href="asset/sertifikat/juara3.png"
+                target="_blank"
+                rel="noopener"
+                ><img
+                  src="asset/sertifikat/juara3.png"
+                  alt=""
+                  loading="lazy"
+              /></a>
+              <div>
+                <h3>Third Place Winner – National Short Story Competition</h3>
+                <p>Fiksindo</p>
+              </div>
+            </article>
+             <article class="certificate-card">
+              <a
+                href="asset/sertifikat/uiux.jpg"
+                target="_blank"
+                rel="noopener"
+                ><img
+                  src="asset/sertifikat/uiux.jpg"
+                  alt=""
+                  loading="lazy"
+              /></a>
+              <div>
+                <h3>Certificate Short Class UI/UX</h3>
+                <p>MySkill</p>
+              </div>
+            </article>
+             <article class="certificate-card">
+              <a
+                href="asset/sertifikat/iot.jpg"
+                target="_blank"
+                rel="noopener"
+                ><img
+                  src="asset/sertifikat/iot.jpg"
+                  alt=""
+                  loading="lazy"
+              /></a>
+              <div>
+                <h3>Bootcamp IoT</h3>
+                <p>Edspert.id</p>
+              </div>
+            </article>
+             <article class="certificate-card">
+              <a
+                href="asset/sertifikat/bootcamp.jpg"
+                target="_blank"
+                rel="noopener"
+                ><img
+                  src="asset/sertifikat/bootcamp.jpg"
+                  alt=""
+                  loading="lazy"
+              /></a>
+              <div>
+                <h3>Bootcamp IoT</h3>
+                <p>Edspert.id</p>
+              </div>
+            </article>
+             <article class="certificate-card">
+              <a
+                href="asset/sertifikat/sertifikat magang.jpeg"
+                target="_blank"
+                rel="noopener"
+                ><img
+                  src="asset/sertifikat/sertifikat magang.jpeg"
+                  alt=""
+                  loading="lazy"
+              /></a>
+              <div>
+                <h3>Certificate Internship</h3>
+                <p>ELS.ID</p>
+              </div>
+            </article>
+             <article class="certificate-card">
+              <a
+                href="asset/sertifikat/uiux.jpg"
+                target="_blank"
+                rel="noopener"
+                ><img
+                  src="asset/sertifikat/uiux.jpg"
+                  alt=""
+                  loading="lazy"
+              /></a>
+              <div>
+                <h3>Certificate Short Class UI/UX</h3>
+                <p>MySkill</p>
+              </div>
+            </article>
+             <article class="certificate-card">
+              <a
+                href="asset/sertifikat/expo.jpg"
+                target="_blank"
+                rel="noopener"
+                ><img
+                  src="asset/sertifikat/expo.jpg"
+                  alt=""
+                  loading="lazy"
+              /></a>
+              <div>
+                <h3>Certificate Codex Expo Participant</h3>
+                <p>Computer Science</p>
+              </div>
+            </article>
+             </article>
+             <article class="certificate-card">
+              <a
+                href="asset/sertifikat/pkm.jpg"
+                target="_blank"
+                rel="noopener"
+                ><img
+                  src="asset/sertifikat/pkm.jpg"
+                  alt=""
+                  loading="lazy"
+              /></a>
+              <div>
+                <h3>Certificate PKM Internal Participant</h3>
+                <p>Universitas Putra Bangsa</p>
+              </div>
+            </article>
+             </article>
+             <article class="certificate-card">
+              <a
+                href="asset/sertifikat/sertifikat msib si.jpg"
+                target="_blank"
+                rel="noopener"
+                ><img
+                  src="asset/sertifikat/sertifikat msib si.jpg"
+                  alt=""
+                  loading="lazy"
+              /></a>
+              <div>
+                <h3>Certificate Faxing Career Challenges</h3>
+                <p>PT Orbit Future Academy</p>
+              </div>
+            </article>
+             </article>
+             <article class="certificate-card">
+              <a
+                href="asset/sertifikat/ketua.png"
+                target="_blank"
+                rel="noopener"
+                ><img
+                  src="asset/sertifikat/ketua.png"
+                  alt=""
+                  loading="lazy"
+              /></a>
+              <div>
+                <h3>Certificate Information Media Division Leadership</h3>
+                <p>UKM Kewirausahaan</p>
+              </div>
+            </article>
+            <article class="certificate-card">
+              <a
+                href="asset/sertifikat/seminar.png"
+                target="_blank"
+                rel="noopener"
+                ><img
+                  src="asset/sertifikat/seminar.png"
+                  alt=""
+                  loading="lazy"
+              /></a>
+              <div>
+                <h3>Certificate Entrepreneurship Club Seminar</h3>
+                <p>UKM Kewirausahaan</p>
+              </div>
+            </article>
+            <article class="certificate-card">
+              <a
+                href="asset/sertifikat/workshop.png"
+                target="_blank"
+                rel="noopener"
+                ><img
+                  src="asset/sertifikat/workshop.png"
+                  alt=""
+                  loading="lazy"
+              /></a>
+              <div>
+                <h3>Certificate Entrepreneurship Club Workshop</h3>
+                <p>UKM Kewirausahaan</p>
+              </div>
+            </article>
+            <article class="certificate-card">
+              <a
+                href="asset/sertifikat/webinar nasional.jpg"
+                target="_blank"
+                rel="noopener"
+                ><img
+                  src="asset/sertifikat/webinar nasional.jpg"
+                  alt=""
+                  loading="lazy"
+              /></a>
+              <div>
+                <h3>Certificate National Webinar</h3>
+                <p>Universitas Putra Bangsa</p>
+              </div>
+            </article>
+            <article class="certificate-card">
+              <a
+                href="asset/sertifikat/c1.jpg"
+                target="_blank"
+                rel="noopener"
+                ><img
+                  src="asset/sertifikat/c1.jpg"
+                  alt=""
+                  loading="lazy"
+              /></a>
+              <div>
+                <h3>Certificate Skills Training</h3>
+                <p>PT Orbit Future Academy</p>
+              </div>
+            </article>
+              <article class="certificate-card">
+              <a
+                href="asset/sertifikat/c2.jpg"
+                target="_blank"
+                rel="noopener"
+                ><img
+                  src="asset/sertifikat/c2.jpg"
+                  alt=""
+                  loading="lazy"
+              /></a>
+              <div>
+                <h3>Certificate Skills Training</h3>
+                <p>PT Orbit Future Academy</p>
+              </div>
+            </article>
+              <article class="certificate-card">
+              <a
+                href="asset/sertifikat/c3.jpg"
+                target="_blank"
+                rel="noopener"
+                ><img
+                  src="asset/sertifikat/c3.jpg"
+                  alt=""
+                  loading="lazy"
+              /></a>
+              <div>
+                <h3>Certificate Skills Training</h3>
+                <p>PT Orbit Future Academy</p>
+              </div>
+            </article>
+              <article class="certificate-card">
+              <a
+                href="asset/sertifikat/c4.jpg"
+                target="_blank"
+                rel="noopener"
+                ><img
+                  src="asset/sertifikat/c4.jpg"
+                  alt=""
+                  loading="lazy"
+              /></a>
+              <div>
+                <h3>Certificate Skills Training</h3>
+                <p>PT Orbit Future Academy</p>
+              </div>
+            </article>
+              <article class="certificate-card">
+              <a
+                href="asset/sertifikat/c5.jpg"
+                target="_blank"
+                rel="noopener"
+                ><img
+                  src="asset/sertifikat/c5.jpg"
+                  alt=""
+                  loading="lazy"
+              /></a>
+              <div>
+                <h3>Certificate Skills Training</h3>
+                <p>PT Orbit Future Academy</p>
+              </div>
+            </article>
+              <article class="certificate-card">
+              <a
+                href="asset/sertifikat/c7.jpg"
+                target="_blank"
+                rel="noopener"
+                ><img
+                  src="asset/sertifikat/c7.jpg"
+                  alt=""
+                  loading="lazy"
+              /></a>
+              <div>
+                <h3>Certificate Skills Training</h3>
+                <p>PT Orbit Future Academy</p>
+              </div>
+            </article>
+              <article class="certificate-card">
+              <a
+                href="asset/sertifikat/c6.jpg"
+                target="_blank"
+                rel="noopener"
+                ><img
+                  src="asset/sertifikat/c6.jpg"
+                  alt=""
+                  loading="lazy"
+              /></a>
+              <div>
+                <h3>Certificate Skills Training</h3>
+                <p>PT Orbit Future Academy</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section class="section-shell section-block contact-section" id="contact">
+        <div class="contact-inner">
+          <div class="section-heading">
+            <p class="eyebrow">HELLO</p>
+            <h2>Let's create something <span>meaningful.</span></h2>
+            <p class="section-intro">
+              I'd love to hear from you! Whether it's an opportunity, a project,
+              or just a chat, feel free to reach out.
+            </p>
+          </div>
+          <div class="contact-list">
+            <a class="contact-item" href="mailto:kurniaanggie10@gmail.com">
+              <span><i class="fa-regular fa-envelope"></i></span>
+              <div><small>Email</small><strong>Get in touch</strong></div>
+              <i class="fa-solid fa-arrow-up-right-from-square item-arrow"></i>
+            </a>
+            <a
+              class="contact-item"
+              href="https://wa.me/6287773147863"
+              target="_blank"
+              rel="noopener"
+            >
+              <span><i class="fa-brands fa-whatsapp"></i></span>
+              <div><small>WhatsApp</small><strong>Connect with me</strong></div>
+              <i class="fa-solid fa-arrow-up-right-from-square item-arrow"></i>
+            </a>
+            <a
+              class="contact-item"
+              href="https://www.linkedin.com/in/kurnia-anggie/"
+              target="_blank"
+              rel="noopener"
+            >
+              <span><i class="fa-brands fa-linkedin-in"></i></span>
+              <div><small>LinkedIn</small><strong>View my profil</strong></div>
+              <i class="fa-solid fa-arrow-up-right-from-square item-arrow"></i>
+            </a>
+            <a
+              class="contact-item"
+              href="cv-kurnia-anggie.pdf"
+              target="_blank"
+              rel="noopener"
+            >
+              <span><i class="fa-regular fa-file-pdf"></i></span>
+              <div><small>Resume / CV</small><strong>Download CV</strong></div>
+              <i class="fa-solid fa-arrow-up-right-from-square item-arrow"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="footer-logo" href="#home">ANGGIE<span>.</span></a>
+      <p>Designed & developed by Kurnia Anggie Oktriana</p>
+      <p>© <span id="current-year">2026</span> All rights reserved.</p>
+    </footer>
+
+    <a
+      href="#home"
+      class="back-to-top"
+      id="back-to-top"
+      aria-label="Back to top"
+      ><i class="fa-solid fa-arrow-up"></i
+    ></a>
+
+    <!-- DETAIL MODAL -->
+    <div class="modal" id="detail-modal" aria-hidden="true">
+      <div class="modal-backdrop" data-close></div>
+      <div
+        class="modal-dialog"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="modal-title"
+      >
+        <button class="modal-close" type="button" data-close aria-label="Close">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+        <div class="modal-gallery">
+          <div class="gallery-main">
+            <img id="gallery-image" src="" alt="" />
+            <button
+              class="gallery-nav prev"
+              id="gallery-prev"
+              type="button"
+              aria-label="Previous photo"
+            >
+              <i class="fa-solid fa-chevron-left"></i>
+            </button>
+            <button
+              class="gallery-nav next"
+              id="gallery-next"
+              type="button"
+              aria-label="Next photo"
+            >
+              <i class="fa-solid fa-chevron-right"></i>
+            </button>
+          </div>
+          <div class="gallery-thumbs" id="gallery-thumbs"></div>
+        </div>
+        <div class="modal-body">
+          <span class="date-label" id="modal-date"></span>
+          <h3 id="modal-title"></h3>
+          <h4 id="modal-sub"></h4>
+          <div id="modal-desc"></div>
+          <h5>Skills</h5>
+          <div class="tag-list" id="modal-skills"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
